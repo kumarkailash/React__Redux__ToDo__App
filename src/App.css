@@ -1,0 +1,149 @@
+.maindiv{
+  text-align: center;
+
+
+
+}
+
+input{
+  padding: 3px; 
+  width: 350px;
+  height: 40px;
+  margin-top: 5px;
+  border-bottom: 1px solid dodgerblue;
+  border-top: 1px solid dodgerblue;
+  border-right: 1px solid dodgerblue;
+  border-left: 1px solid dodgerblue;
+  border-radius: 8px;
+  outline: none;
+ font-family: cursive;
+}
+@media screen and (max-width: 600px) {
+  input{
+    width: 55%;
+  }
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+.todoApp{
+  color:"white";
+  background-color: dodgerblue; 
+  color: white;
+  font-family: fantasy;
+text-align: center;
+border-radius: 5px;
+}
+@media screen and (max-width: 600px) {
+  .todoApp{
+    width: 100%;
+    margin: auto
+  }
+}
+.TodoContent{
+  font-family: monospace;
+  margin-top: 10px;
+}
+@media screen and (max-width: 600px) {
+  .TodoContent{
+    width: 100%;
+    margin: auto
+  }
+}
+
+
+li{
+  list-style: none;
+}
+button{
+  width: 50px;
+  padding: 8px;
+margin-left: 5px;
+background-color: dodgerblue;
+color: white;
+margin-top: 5px;
+border-bottom: 1px solid dodgerblue;
+border-top: 1px solid dodgerblue;
+border-right: 1px solid dodgerblue;
+border-left: 1px solid dodgerblue;
+border-radius: 5px;
+outline: none;
+font-family: fantasy;
+
+
+}
+
+.DeleteAll{
+  width: 90px;
+
+}
+p{
+  padding: 8px;
+}
+.buttons{
+  float: right;
+  margin-right: 10px;
+}
+
+
+li{
+  box-shadow: 1px 1px 4px 1px #888888;
+  height: 50px;
+  width: 1200px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .li{
+    width: 100%;
+    background-color: green;
+    margin: auto
+  }
+}
+
+
+.btnz{
+  color: white,
+}
+
+
+@media screen and (max-width: 600px) {
+  .btnz{
+    width: 100%;
+    margin: auto
+  }
+}
+
+
+
+
+
+
+
+
+
+/* 
+.edit$Deltebtn{
+  
+} */
+
+
+
+
+.blubs{
+  text-align: center;
+}
+
+.blbbtn{
+  width: 100px;
+}
+.toss{
+  text-align: center;
+  
+
+}
